@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 def oxford_comma(array)
   if array.length < 2 
     return array.join (", ")
@@ -12,3 +13,11 @@ def oxford_comma(array)
   end 
 end
   
+=======
+def oxford_comma(array)
+  array.join(",")
+end
+ded oxford_comma("kiwi", "durian")
+  array.join(" and ")
+end
+>>>>>>> 49fe8c915045111130ae665cd145f13e53ef2334
